@@ -1,5104 +1,667 @@
-isSeatEnabled = [
-    required = true,
-    Funciones= [
-        0 = [
-            Salas= [
-                0= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                1= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                2= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                3= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                4= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
+const seats = [
+    [
+        [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
             ],
         ],
-        1= [
-            Salas= [
-                0= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                1= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                2= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                3= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                4= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
+        [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
             ],
         ],
-        2= [
-            Salas= [
-                0= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                1= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                2= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                3= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                4= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
+        [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
             ],
-        ],
-        3= [
-            Salas= [
-                0= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                1= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                2= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                3= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                4= [
-                    Filas= [
-                        0= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        1= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        2= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        3= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        4= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        5= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        6= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        7= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        8= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                        9= [
-                            Columnas= [
-                                0= [
-                                    enabled = true,
-                                ], 1= [
-                                    enabled = true,
-                                ], 2= [
-                                    enabled = true,
-                                ], 3= [
-                                    enabled = true,
-                                ], 4= [
-                                    enabled = true,
-                                ], 5= [
-                                    enabled = true,
-                                ], 6= [
-                                    enabled = true,
-                                ], 7= [
-                                    enabled = true,
-                                ], 8= [
-                                    enabled = true,
-                                ], 9= [
-                                    enabled = true,
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
             ],
-        ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ]
+        , [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ]
+        , [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ]
     ],
-]
+    [
+        [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ],
+        [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ],
+        [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ]
+        , [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ]
+        , [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ]
+    ],
+    [
+        [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ],
+        [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ],
+        [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ]
+        , [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ]
+        , [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ]
+    ],
+    [
+        [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ],
+        [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ],
+        [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ]
+        , [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ]
+        , [
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+            [
+                [false, false, false, false, false, false, false, false, false, false,]
+            ],
+        ]
+    ]
+];
+
+const seatsIntializer = []
+
+for (let i = 0; i < 4; i++) {
+    for (let j = 0; j < 5; j++) {
+        for (let k = 0; k < 10; k++) {
+            for (let l = 0; l < 10; l++) {
+                  seatsIntializer[i][j][k][l] = false;           
+            }
+        }
+    }
+}
+
+console.log(seatsIntializer)
 
 //Pantalla inicial, User and Pass to LogIn
 //Selector de Funciones/Peliculas
