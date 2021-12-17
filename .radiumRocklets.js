@@ -652,14 +652,23 @@ const seats = [
 const seatsIntializer = []
 
 for (let i = 0; i < 4; i++) {
+    seatsIntializer.push([]);
     for (let j = 0; j < 5; j++) {
+        seatsIntializer[i].push([]);
         for (let k = 0; k < 10; k++) {
+            seatsIntializer[i][j].push([]);
             for (let l = 0; l < 10; l++) {
-                  seatsIntializer[i][j][k][l] = false;           
+                seatsIntializer[i][j][k].push([]);
+                seatsIntializer[i][j][k][l] = false;           
             }
         }
     }
+    
 }
+
+[]
+
+seatsIntializer
 
 console.log(seatsIntializer)
 
