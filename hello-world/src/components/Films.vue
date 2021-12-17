@@ -9,7 +9,7 @@
             <div class="filas" v-for="(fila, indexFila) in cinema[indexFilm][indexSala]" :key="indexFila">
                 <div class="filas">{{'Fila '+(indexFila+1)}}</div>
                   <div class="seats" v-for="(seat, indexSeat) in cinema[indexFilm][indexSala][indexFila]" :key="indexSeat">
-                    <button class="seat" @click="seatClicked(indexFila, indexSeat)">
+                    <button class="seat" @click="seatClicked(indexFila, indexSeat, indexSala, indexFilm)">
                       {{indexFila}}{{indexSeat}}
                       <!-- <img 
                       class="seat"
@@ -33,7 +33,7 @@ export default {
   data:() => ({
     cinema:[],
     hide: false,
-    seatSelected: [],
+    seatSelected: null,
   }),
   created() {
     for (let i = 0; i < 4; i++) {
@@ -44,16 +44,20 @@ export default {
           this.cinema[i][j].push([]);
           for (let l = 0; l < 10; l++) {
               this.cinema[i][j][k].push([]);
-              this.cinema[i][j][k][l] = [l];
+              this.cinema[i][j][k][l] = false
           }
         }
       }
     }
   },
   methods: {
-    seatClicked() {
-      this.seatSelected = !this.seatSelected;
-      console.log('seatSelected: ',this.seatSelected);
+    seatClicked(a,b,c,d) {
+      console.log("a",a)
+      console.log("b",b)
+      console.log("d",d)
+      console.log("c",c)
+      this.cinema[a][b][c][d] = !this.cinema[a][b][c][d];
+      console.log('seatSelected: ',this.cinema[a][b][c][d]);
     },
     // showAndHide() {
     //   this.hide = !this.hide;
