@@ -54,11 +54,6 @@ export default {
   methods: {
     seatClicked(a,b,c,d) {
       this.cinema = [...this.cinema, this.cinema[a][b][c][d] = !this.cinema[a][b][c][d]]
-      console.log('Film: ', a);
-      console.log('Fila: ', b);
-      console.log('Sala: ', c);
-      console.log('Seat: ', d);
-      console.log('this.cinema[]: ',this.cinema[a][b][c][d]);
     },
   },
 }
