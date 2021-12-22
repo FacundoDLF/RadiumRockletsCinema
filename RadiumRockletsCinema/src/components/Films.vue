@@ -4,12 +4,15 @@
     <div class="films" v-for="(film, indexFilm) in cinema" :key="indexFilm">
       <button class="film" data-bs-toggle="collapse" :href="`#salas${indexFilm}`" role="button" aria-expanded="false" aria-controls="salas">
         Films {{indexFilm+1}}</button>
-        <div class="collapse" :id="`salas${indexFilm}`" v-for="(sala, indexSala) in cinema[indexFilm]" :key="indexSala">
-          <button class="sala" data-bs-toggle="collapse" :href="`#filas${indexSala}`" role="button" aria-expanded="false" aria-controls="filas">
+        <div class="collapse  " :id="`salas${indexFilm}`" v-for="(sala, indexSala) in cinema[indexFilm]" :key="indexSala">
+          <button class="sala w-100" data-bs-toggle="collapse" :href="`#filas${indexSala}`" role="button" aria-expanded="false" aria-controls="filas">
             SALA {{indexSala+1}}</button>
             <div class="collapse" :id="`filas${indexSala}`">
+              <button class="filas" @click="resetSala(indexSala)">Reset Sala {{indexSala+1}}</button>
+            </div>
+            <div class="collapse" :id="`filas${indexSala}`">
               <div class="filas" v-for="(fila, indexFila) in cinema[indexFilm][indexSala]" :key="indexFila">
-                  <div class="fila">{{'Fila '+(indexFila+1)}}</div>
+                  <button class="btn-fila" @click="resetFila()">{{'Reset Fila '+(indexFila+1)}}</button>
                     <div class="seats" v-for="(seat, indexSeat) in cinema[indexFilm][indexSala][indexFila]" :key="indexSeat">
                       <button 
                         class="seat"
@@ -55,6 +58,28 @@ export default {
         }
       }
     },
+    resetSala() {
+       for (let i = 0; i < 4; i++) {
+        for (let j = 0; j < 5; j++) {
+          for (let k = 0; k < 10; k++) {
+            for (let l = 0; l < 10; l++) {
+              Vue.set(this.cinema[i][j][k], l, false)
+            }
+          }
+        }
+      }
+    },
+    resetFila() {
+      for (let i = 0; i < 4; i++) {
+        for (let j = 0; j < 5; j++) {
+          for (let k = 0; k < 10; k++) {
+            for (let l = 0; l < 10; l++) {
+              Vue.set(this.cinema[i][j][k], l, false)
+            }
+          }
+        }
+      }
+    },
     forCinema() {
       for (let i = 0; i < 4; i++) {
       this.cinema.push([]);
@@ -71,7 +96,7 @@ export default {
       }
     },
     seatClicked(a,b,c,d) {
-      this.cinema = [...this.cinema, this.cinema[a][b][c][d] = !this.cinema[a][b][c][d]]
+      Vue.set(this.cinema[a][b][c], d, !this.cinema[a][b][c][d])
     },
   },
 }
@@ -110,9 +135,20 @@ export default {
 
 .fila {
   display: flex;
+  width: 100%;
   align-items: center;
   color: rgb(17, 250, 17);
   text-shadow: 1px 1px 2px rgb(0, 0, 8), 0 0 25px rgb(17, 250, 17), 0 0 5px rgb(17, 250, 17);
+}
+.btn-fila {
+  border-style: none;
+  background-color: transparent;
+  color: rgb(17, 250, 17);
+  text-shadow: 1px 1px 2px rgb(0, 0, 8), 0 0 25px rgb(17, 250, 17), 0 0 5px rgb(17, 250, 17);
+}
+
+.btn-fila:hover {
+  font-size: larger;
 }
 
 .salas {  
